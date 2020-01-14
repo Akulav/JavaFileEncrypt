@@ -5,12 +5,14 @@
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="136.0" prefWidth="427.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+<AnchorPane prefHeight="157.0" prefWidth="319.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
    <children>
-      <PasswordField fx:id="key" layoutX="139.0" layoutY="41.0" />
-      <Label fx:id="progress" layoutX="177.0" layoutY="14.0" prefHeight="17.0" prefWidth="87.0" text="Encrypt/Decypt" />
-      <Button fx:id="encrypt" layoutX="97.0" layoutY="88.0" mnemonicParsing="false" onAction="#selectEncrypt" prefHeight="25.0" prefWidth="112.0" text="Encrypt" />
-      <Button fx:id="decrypt" layoutX="220.0" layoutY="88.0" mnemonicParsing="false" onAction="#selectDecrypt" prefHeight="25.0" prefWidth="112.0" text="Decrypt" />
-      <Label layoutX="97.0" layoutY="45.0" text="Key: " />
+      <PasswordField fx:id="key" layoutX="83.0" layoutY="42.0" />
+      <Label fx:id="progress" layoutX="114.0" layoutY="14.0" prefHeight="17.0" prefWidth="87.0" text="Encrypt/Decypt" />
+      <Button fx:id="encrypt" layoutX="40.0" layoutY="76.0" mnemonicParsing="false" onAction="#selectEncrypt" prefHeight="25.0" prefWidth="112.0" text="Encrypt" />
+      <Button fx:id="decrypt" layoutX="168.0" layoutY="76.0" mnemonicParsing="false" onAction="#selectDecrypt" prefHeight="25.0" prefWidth="112.0" text="Decrypt" />
+      <Label layoutX="40.0" layoutY="46.0" text="Key: " />
+      <Button fx:id="getPath" layoutX="239.0" layoutY="42.0" minWidth="29.0" mnemonicParsing="false" onAction="#getPath" prefHeight="26.0" prefWidth="41.0" text="..." />
+      <Label fx:id="SelectedPath" layoutX="39.0" layoutY="113.0" />
    </children>
 </AnchorPane>
